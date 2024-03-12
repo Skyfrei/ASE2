@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrivilegeService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6953f74ac98909fbd4307ac4d9f4afe60e0a06b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrivilegeService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrivilegeService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
