@@ -1,0 +1,57 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+docker-build-apigateway:
+  only:
+    - master
+  script:
+    - docker login -u maxxburn -p fa8e56d6-184d-418b-bf2e-97baa7ec2858
+    - docker build --pull -t maxxburn/apigateway ./implementation/ApiGateway/.
+    - docker push maxxburn/apigateway
+  after_script:
+    - docker logout ${CI_REGISTRY}
+  stage: build
+  tags: 
+    - ase-0508
+docker-build-homelayout:
+  only:
+    - master
+  script:
+    - docker login -u maxxburn -p fa8e56d6-184d-418b-bf2e-97baa7ec2858
+    - docker build --pull -t maxxburn/homelayoutservice ./implementation/HomeLayoutService/.
+    - docker push maxxburn/homelayoutservice
+  after_script:
+    - docker logout ${CI_REGISTRY}
+  stage: build
+  tags: 
+    - ase-0508
+docker-build-notificationservice:
+  only:
+    - master
+  script:
+    - docker login -u maxxburn -p fa8e56d6-184d-418b-bf2e-97baa7ec2858
+    - docker build --pull -t maxxburn/notificationservice ./implementation/NotificationService/.
+    - docker push maxxburn/notificationservice
+  after_script:
+    - docker logout ${CI_REGISTRY}
+  stage: build
+  tags: 
+    - ase-0508
+docker-build-privilegeservice:
+  only:
+    - master
+  script:
+    - docker login -u maxxburn -p fa8e56d6-184d-418b-bf2e-97baa7ec2858
+    - docker build --pull -t maxxburn/privilegeservice ./implementation/PrivilegeService/.
+    - docker push maxxburn/privilegeservice
+  after_script:
+    - docker logout ${CI_REGISTRY}
+  stage: build
+  tags: 
+    - ase-0508
+
+    
+
+    
