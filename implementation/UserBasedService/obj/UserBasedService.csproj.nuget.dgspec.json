@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Important\\School\\Advanced computer science\\Project\\ASE_Team_0508\\implementation\\UserBasedService\\UserBasedService.csproj": {}
+    "/Users/klavio/Downloads/ASE_Team_0508-master/implementation/UserBasedService/UserBasedService.csproj": {}
   },
   "projects": {
-    "C:\\Important\\School\\Advanced computer science\\Project\\ASE_Team_0508\\implementation\\UserBasedService\\UserBasedService.csproj": {
+    "/Users/klavio/Downloads/ASE_Team_0508-master/implementation/UserBasedService/UserBasedService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Important\\School\\Advanced computer science\\Project\\ASE_Team_0508\\implementation\\UserBasedService\\UserBasedService.csproj",
+        "projectUniqueName": "/Users/klavio/Downloads/ASE_Team_0508-master/implementation/UserBasedService/UserBasedService.csproj",
         "projectName": "UserBasedService",
-        "projectPath": "C:\\Important\\School\\Advanced computer science\\Project\\ASE_Team_0508\\implementation\\UserBasedService\\UserBasedService.csproj",
-        "packagesPath": "C:\\Users\\tarka\\.nuget\\packages\\",
-        "outputPath": "C:\\Important\\School\\Advanced computer science\\Project\\ASE_Team_0508\\implementation\\UserBasedService\\obj\\",
+        "projectPath": "/Users/klavio/Downloads/ASE_Team_0508-master/implementation/UserBasedService/UserBasedService.csproj",
+        "packagesPath": "/Users/klavio/.nuget/packages/",
+        "outputPath": "/Users/klavio/Downloads/ASE_Team_0508-master/implementation/UserBasedService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tarka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/klavio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,10 +50,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
